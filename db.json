@@ -1,0 +1,59 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "All cars",
+      "part": "Wheel",
+      "price": "$150",
+      "description": "A Guide To Upgrading Wheels and Tires | The Best Wheels and Tires",
+      "img": "https://res.klook.com/image/upload/c_fill,w_750,h_500/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/tsah7c9evnal289z5fig.jpg"
+    },
+    {
+      "title": "MacBook",
+      "part": "TECH",
+      "price": "1500",
+      "img": "https://s.yimg.com/ny/api/res/1.2/8LX7wS.DeNBt63fF3YyoJA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTM3MQ--/https://s.yimg.com/os/creatr-uploaded-images/2023-11/e5384f80-7c1e-11ee-bd73-50f80f693bba",
+      "description": "MacBook Pro 16-inch (2021) review | Space\n",
+      "id": "1720708832446"
+    },
+    {
+      "title": "IT",
+      "part": "Programmer",
+      "price": "4000",
+      "img": "https://www.shutterstock.com/image-vector/rivne-ukraine-june-25-2023-260nw-2322698711.jpg",
+      "description": "Programming Languages Photos, Images & Pictures | Shutterstock\n",
+      "id": "1720710200066"
+    },
+    {
+      "id": "1720710935260",
+      "title": "Cat ",
+      "part": "Animal",
+      "price": "200",
+      "img": "https://hips.hearstapps.com/hmg-prod/images/cat-instagram-captions-64ff2dfa47e9a.jpg?crop=1xw:0.84375xh;center,top",
+      "description": "Cats have very sweet features. It has two beautiful eyes, adorably tiny paws, sharp claws, and two perky ears which are very sensitive to sounds. It has a tiny body covered with smooth fur and it has a furry tail as well. Cats have an adorable face with a tiny nose, a big mouth and a few whiskers under its nose."
+    },
+    {
+      "id": "1720728525630",
+      "title": "BMW",
+      "part": "BMW 7",
+      "price": "150000",
+      "img": "https://www.bmwusa.com/content/dam/bmw/common/vehicles/2023/my24/7-series/overview/mobile/BMW-MY24-7Series-Overview-MakeitYours-01-Mobile.jpg",
+      "description": "2024 BMW 7 Series Full-Size Luxury Sedan | All Modes & Pricing"
+    },
+    {
+      "title": "Oil",
+      "part": "Fuel",
+      "price": "78",
+      "img": "https://media.istockphoto.com/id/1220229790/photo/north-american-oil.webp?b=1&s=170667a&w=0&k=20&c=bREwpGsKsWfRde5IwybdiSzZyxfZAFvKBCQFf6dKw9c=",
+      "description": "500+ Oil And Gas Pictures [HD] | Download Free Images on Unsplash",
+      "id": "1720744076501"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Aziz",
+      "age": 20
+    }
+  ]
+}

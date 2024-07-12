@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOPING</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/rest.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="modal">
+            <div class="content">
+                <h2>Update Post</h2>
+                <form>
+                    <label for="postTitle">
+                        <input id="updateTitle" type="text" placeholder="Create title" required>
+                    </label>
+                    <label for="postPart">
+                        <input id="updatePart" type="text" placeholder="Create part" required>
+                    </label>
+                    <label for="postPrice">
+                        <input id="updatePrice" type="number" step="1" placeholder="Create price" required>
+                    </label>
+                    <label for="postImage">
+                        <input id="updateImage" type="url" placeholder="Create image url" required>
+                    </label>
+                    <textarea id="updatetextArea" style="width: 95%;" name="" id=""></textarea>
+                   <button style="background-color: #ffffff;" id='updateBtn'>Update</button>
+                   <button style="background-color: #DC5F00; color: #ffffff;" id='cancelBtn'>Cancel</button>
+                </form>
+            </div>
+        </div>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="toggle">
+                    <button id="btnBlock"><i class="bi bi-list"></i></button>
+                    <button id="btnRemove"><i class="bi bi-x"></i></button>
+                </div>
+                    <div class="logo">
+                    <h1>MY SH<span><img id="wheel" src="./assets/images/hyundai-car-wheel-500x500-removebg-preview.png" alt=""></span>P</h1>
+                </div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Catolog</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+                <div class="btns">
+                    <button><img src="" alt=""></button>
+                    <button><img src="" alt=""></button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="container">
+        
+        <div class="main">
+            <aside class="aside">
+                
+                <h2>Create your items</h2>
+                <form id="formPost">
+                    <label for="postTitle">
+                        <input id="postTitle" type="text" placeholder="Create title" required>
+                    </label>
+                    <label for="postPart">
+                        <input id="postPart" type="text" placeholder="Create part">
+                    </label>
+                    <label for="postPrice">
+                        <input id="postPrice" type="number" step="1" placeholder="Create price">
+                    </label>
+                    <label for="postImage">
+                        <input id="postImage" type="url" placeholder="Create image url">
+                    </label>
+                   <div class="textarea">
+                    <textarea id="textArea" style="width: 95%;" name="" id=""></textarea>
+                   </div>
+                   <button id='createBtn'>Create</button>
+                </form>
+            </aside>
+            <div class="result">
+                <div id="gritContainer">
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+   <!-- <script src="./scripts/toggle.js"></script> -->
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+   <script src="./scripts/app.js"></script>
+</body>
+</html>
